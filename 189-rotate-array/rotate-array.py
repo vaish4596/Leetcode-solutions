@@ -4,5 +4,5 @@ class Solution:
         
         n = len(nums)
         k = k % n   # in case k > n
-        nums[:] = nums[-k:] + nums[:-k]   # rotate in-place
+        nums[:] = nums[-k:] + nums[:-k]  
 
